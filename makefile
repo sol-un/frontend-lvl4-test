@@ -1,2 +1,6 @@
 start:
-	npx start-server -s ./frontend/build
+	npx start-server
+
+build:
+	rm -rf frontend/build
+	npm run build
