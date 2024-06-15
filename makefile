@@ -1,5 +1,5 @@
 start:
-	npx start-server
+	npm start
 
 build:
 	npm ci
